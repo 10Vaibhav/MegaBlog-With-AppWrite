@@ -20,7 +20,7 @@ function Logo({width = "100px"}) {
             </svg>
             <div className="text-3xl font-bold">
                 <span className="text-violet-900">Visionary</span>
-                <span className="text-gray-800">Pic</span>
+                <span className="text-gray-950">Pic</span>
             </div>
         </div>
     )

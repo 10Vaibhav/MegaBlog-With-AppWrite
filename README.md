@@ -3,9 +3,6 @@
 VisionaryPic is a modern blog platform built with React, Redux, and Appwrite. It features a clean, responsive design and allows users to create, edit, and manage blog posts with rich text content and image uploads.
 
 
-![Video Title](./public/Visionary%20Pic%20.mp4)
-
-
 ## 🌟 Features
 
 - 🔐 User authentication (signup, login, logout)

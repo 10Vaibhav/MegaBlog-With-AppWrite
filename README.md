@@ -38,11 +38,12 @@ VisionaryPic is a modern blog platform built with React, Redux, and Appwrite. It
 
 
 ## Create a `.env` file in the root directory with your Appwrite credentials:
--VITE_APPWRITE_URL="Your-Appwrite-URL"
--VITE_APPWRITE_PROJECT_ID="Your-Project-ID"
--VITE_APPWRITE_DATABASE_ID="Your-Database-ID"
--VITE_APPWRITE_COLLECTION_ID="Your-Collection-ID"
--VITE_APPWRITE_BUCKET_ID="Your-Bucket-ID"
+
+- VITE_APPWRITE_URL="Your-Appwrite-URL"
+- VITE_APPWRITE_PROJECT_ID="Your-Project-ID"
+- VITE_APPWRITE_DATABASE_ID="Your-Database-ID"
+- VITE_APPWRITE_COLLECTION_ID="Your-Collection-ID"
+- VITE_APPWRITE_BUCKET_ID="Your-Bucket-ID"
 
 
 

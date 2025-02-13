@@ -6,10 +6,12 @@ const conf = {
     appwriteBucketId : String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
 }
 
-// Add validation
+// Add validation and debugging
 Object.keys(conf).forEach(key => {
     if (!conf[key]) {
         console.error(`Missing configuration for ${key}`);
+    } else {
+        console.log(`${key}: ${conf[key]}`); // This will help debug the values
     }
 });
 

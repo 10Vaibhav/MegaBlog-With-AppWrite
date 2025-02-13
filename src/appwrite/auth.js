@@ -39,11 +39,9 @@ export class AuthService {
     async getCurrentUser() {
         try {
             const user = await this.account.get();
-            if (!user) throw new Error('User not found');
             return user;
         } catch (error) {
             console.error("Appwrite service :: getCurrentUser :: error", error);
-            // Return null if there's no session or other errors
             return null;
         }
     }

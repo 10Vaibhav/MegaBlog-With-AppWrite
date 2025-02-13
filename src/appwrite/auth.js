@@ -38,12 +38,14 @@ export class AuthService {
 
     async getCurrentUser() {
         try {
-            return await this.account.get();
+            const user = await this.account.get();
+            if (!user) throw new Error('User not found');
+            return user;
         } catch (error) {
-            console.log("Appwrite serive :: getCurrentUser :: error", error);
+            console.error("Appwrite service :: getCurrentUser :: error", error);
+            // Return null if there's no session or other errors
+            return null;
         }
-
-        return null;
     }
 
     async logout() {

@@ -6,4 +6,11 @@ const conf = {
     appwriteBucketId : String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
 }
 
+// Add validation
+Object.keys(conf).forEach(key => {
+    if (!conf[key]) {
+        console.error(`Missing configuration for ${key}`);
+    }
+});
+
 export default conf;

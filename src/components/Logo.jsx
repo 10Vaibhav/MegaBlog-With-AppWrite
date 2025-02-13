@@ -19,8 +19,8 @@ function Logo({width = "100px"}) {
                 <path d="M11 11l-4 4"></path>
             </svg>
             <div className="text-3xl font-bold">
-                <span className="text-violet-900">Mega</span>
-                <span className="text-gray-800">Blog</span>
+                <span className="text-violet-900">Visionary</span>
+                <span className="text-gray-800">Pic</span>
             </div>
         </div>
     )
